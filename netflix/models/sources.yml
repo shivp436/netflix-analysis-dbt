@@ -1,0 +1,13 @@
+sources:
+  - name: raw
+    database: NETFLIX_DBT_DB
+    schema: RAW 
+    tables:
+      - name: movies # dbt source name
+        identifier: movies # snowflake object name
+
+      - name: ratings
+      - name: tags
+      - name: genome_scores
+      - name: genome_tags
+      - name: links 

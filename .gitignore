@@ -1,0 +1,4 @@
+ml-20m/
+.venv/
+.env
+logs/
