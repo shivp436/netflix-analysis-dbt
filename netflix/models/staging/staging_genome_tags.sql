@@ -1,6 +1,5 @@
 {{ 
   config(
-    name='staging_genome_tags',
     alias='genome_tags'
   )
 }}

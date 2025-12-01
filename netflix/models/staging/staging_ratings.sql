@@ -1,7 +1,6 @@
 {{
   config (
     materialized='table',
-    name='staging_ratings',
     alias='ratings'
   )
 }}

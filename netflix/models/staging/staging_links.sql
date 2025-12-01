@@ -1,6 +1,5 @@
 {{ 
   config(
-    name='staging_links',
     alias='links'
   )
 }}

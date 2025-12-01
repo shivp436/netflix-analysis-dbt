@@ -33,7 +33,7 @@ models:
   netflix:
     staging:
       +schema: STAGING
-    # transform:
-    #   +materialized: table
-    # marts:
-    #   +materialized: table
+      +materialized: view
+    marts:
+      +schema: MARTS
+      +materialized: table

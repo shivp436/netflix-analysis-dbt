@@ -1,6 +1,5 @@
 {{ 
   config(
-    name='staging_genome_scores',
     alias='genome_scores'
   )
 }}

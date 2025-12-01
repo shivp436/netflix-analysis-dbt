@@ -1,6 +1,5 @@
 {{ 
   config(
-    name='staging_movies',
     alias='movies'
   )
 }}

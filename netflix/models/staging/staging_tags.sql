@@ -1,8 +1,6 @@
 {{
   config(
-    materialized='table',
-    name='staging_tags',
-    alias='tags
+    alias='tags'
   )
 }}
 
