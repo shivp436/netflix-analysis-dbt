@@ -1,0 +1,25 @@
+version: 2
+
+models:
+  - name: dim_movies
+    description: Dimension table for cleansed Movie metadata
+    columns:
+      - name: movie_id
+        description: Primary Key of the table. Unique for each Movie
+        tests:
+          - not_null
+          - unique
+      - name: movie_title
+        description: Movie Name
+        tests:
+          - not_null
+      - name: genre_array
+        description: List of genres the movie belongs to
+      - name: genres
+        description: List of genres the movie belongs to
+  - name: fact_genome_scores
+    description: Fact table for scores
+    columns:
+      - name: relevance_score
+        tests:
+          - not_null
